@@ -27,7 +27,7 @@ const Contador = () => {
 
   return (
     <>
-      <p>{Contador}</p>
+      <h1>{Contador}</h1>
       <button onClick={incrementar}>Incrementar</button>
       <button onClick={decrementar}>Decrementar</button>
 
