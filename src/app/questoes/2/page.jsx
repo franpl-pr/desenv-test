@@ -20,13 +20,14 @@ const Contador = () => {
     //quando for renderizado
     useEffect(() => {
       setNumero(10)
-    })
+    }, [])// o segundo parâmetro vazio faz com que só seja executado uma vez
 
 
   }
 
   return (
     <>
+      <p>{Contador}</p>
       <button onClick={incrementar}>Incrementar</button>
       <button onClick={decrementar}>Decrementar</button>
 
